@@ -13,7 +13,7 @@ remoteApp.use(express.json());
 //mongodb+srv://testuser:Y0Rn033zQ13kTIiQ@abdu1.2cskxva.mongodb.net/?retryWrites=true&w=majority&appName=Abdu1
 // remote sever connection
 // mongodb+srv://testuser:Y0Rn033zQ13kTIiQ@abdu1.2cskxva.mongodb.net/test?retryWrites=true&w=majority&appName=Abdu1
-mongoose.connect('...connection string...')
+mongoose.connect('mongodb+srv://testuser:Y0Rn033zQ13kTIiQ@abdu1.2cskxva.mongodb.net/test?retryWrites=true&w=majority&appName=Abdu1')
 .then(() => {
     console.log(' Connected to Atlas DB');
     remoteApp.listen(3000, () => {
