@@ -1,15 +1,15 @@
 # 📚 Project Contributors
 
-| 👤 Name                     | 🎓 Section |
-|---------------------------|------------|
-| Omar Aly Abdelrady        | 5          |
-| Zyad Hany                 | 4          |
-| Mohamed Elsaid            | 6          |
-| Abdallah Ebrahim          | 5          |
-| Khaled Hagag              | 3          |
-| Ahmed Osama               | 1          |
-| Abdelrahman Kamel Amer    | 5          |
-| Abdelrahman Wael          | 5          |
+| 👤 Name                  | 🎓 Section | 📁 File              |
+|------------------------|------------|----------------------|
+| Omar Aly Abdelrady     | 5          | server.js            |
+| Zyad Hany              | 4          | server.js            |
+| Mohamed Elsaid         | 6          | student router       |
+| Abdallah Ebrahim       | 5          | student controller   |
+| Khaled Hagag           | 3          | schemas folder       |
+| Ahmed Osama            | 1          | doctor routes        |
+| Abdelrahman Kamel Amer | 5          | doctor controller    |
+| Abdelrahman Wael       | 5          | remote.js            |
 
 ---
 
