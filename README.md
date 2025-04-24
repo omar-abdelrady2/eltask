@@ -4,7 +4,7 @@
 |------------------------|------------|----------------------|
 | Omar Aly Abdelrady     | 5          | server.js            |
 | Zyad Hany              | 4          | server.js            |
-| Mohamed Elsaid         | 6          | student router       |
+| Mohamed Elsaid         | 6          | student routes       |
 | Abdallah Ebrahim       | 5          | student controller   |
 | Khaled Hagag           | 3          | schemas folder       |
 | Ahmed Osama            | 1          | doctor routes        |
