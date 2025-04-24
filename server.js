@@ -10,12 +10,17 @@ app.use(express.json());
 app.use(express.urlencoded({extended : false}));
 
 // connecting to mongodb
-try {
-        mongoose.connect('mongodb://127.0.0.1:27017/test');
-        console.log('connected to the db');
-} catch (error) {
-    console.error(error);
-};
+
+mongoose.connect('mongodb://127.0.0.1:27017/test')
+.then(() => {
+    console.log(' Connected to Local DB');
+    app.listen(8000, () => {
+    console.log(' Server running on port 8000');
+    });
+})
+.catch((err) => {
+    console.error(' Connection Error:', err);
+});
 
 // hard coded student add
 let hardCodedStudent =  new studentModel({
@@ -42,16 +47,3 @@ app.get('/all', async (req, res) => {
         res.status(500).json({message: error.message});
     }
 })
-
-
-// server starting
-app.listen(8000 , () => {
-    console.log('the server had started successfully !');
-})
-
-
-// all the links for the tests
-//http://localhost:8000/student (Methods : POST, GET)
-//http://localhost:8000/student/:name (Methods : DELETE)
-//http://localhost:8000/doctor (Methods : POST, PUT)
-//http://localhost:8000/all (Methods : GET)

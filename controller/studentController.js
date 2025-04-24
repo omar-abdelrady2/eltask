@@ -40,6 +40,6 @@ export const deleteByName = async (req, res, next) => {
 
         res.status(200).json({ message: 'Student deleted successfully' });
     } catch (err) {
-        next(err); 
+        res.status(500).json({ error: err.message });
     }
 }
