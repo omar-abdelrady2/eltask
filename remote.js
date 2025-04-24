@@ -24,6 +24,14 @@ mongoose.connect('mongodb+srv://testuser:Y0Rn033zQ13kTIiQ@abdu1.2cskxva.mongodb.
     console.error(' Connection Error:', err);
 });
 
+
+let hardCodedStudent =  new studentModel({
+    name: 'abdo',
+    age : 19,
+    level : 'second',
+    address : 'Egypt'
+});
+hardCodedStudent.save();
 // student routes
 remoteApp.use('/student', studentRoutes);
 // doctor routes
