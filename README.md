@@ -8,8 +8,8 @@
 | Abdallah Ebrahim       | 5          | student controller   |
 | Khaled Hagag           | 3          | schemas folder       |
 | Ahmed Osama            | 1          | doctor routes        |
-| Abdelrahman Kamel Amer | 5          | doctor controller    |
-| Abdelrahman Wael       | 5          | remote.js            |
+| Abdelrahman Kamel Amer | 5          | remote.js            |
+| Abdelrahman Wael       | 5          | doctor controller    |
 
 ---
 
